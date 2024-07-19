@@ -7,6 +7,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
+
 public class Assignment {
 
 	public static void main(String[] args) {
@@ -23,6 +25,9 @@ public class Assignment {
 		List<WebElement> list = driver.findElements(By.cssSelector("#checkbox-example label"));
 
 		System.out.println(list.size());
+		System.out.println("post jira1");
+		System.out.println("post jira2");
+		System.out.println("post jira3");
 
 	}
 
