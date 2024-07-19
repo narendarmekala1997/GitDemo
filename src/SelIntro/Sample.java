@@ -12,6 +12,14 @@ public class Sample {
 		driver.get("https://rahulshettyacademy.com/locatorspractice");
 		System.out.println(driver.getTitle() + driver.getCurrentUrl());
 		driver.close();
+		System.out.println("this is the third change");
+		System.out.println("this is the third change");
+		System.out.println("this is the third change");
+		System.out.println("this is the third change");
+		System.out.println("this is the third change");
+		System.out.println("this is the third change");
+		System.out.println("this is the third change");
+		
 
 	}
 }
